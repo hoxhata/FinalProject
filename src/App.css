@@ -1,0 +1,172 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.blog-post{
+  background: rgb(206, 229, 143);
+  background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+/* css e navbarit*/
+.title{        
+  width: 100%;
+  height: 50px;
+  display: flex;
+justify-content: center;
+align-items: center;
+background: rgb(206, 229, 143);
+background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+color: black;
+}
+.topnav a {
+  float: left;
+  color: #141414;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background: rgb(206, 229, 143);
+    background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+  color: black;
+}
+
+/*CSS e Headerit ATR Foundation*/
+.myblog {
+  margin: 0;
+  padding: 10px;
+  background: rgb(206, 229, 143);
+  background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+    
+  color: #141414;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+}
+
+
+.search-bar {
+  background-color: #cec5c5;
+}
+
+.news {
+  background: rgb(206, 229, 143);
+  background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+  color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 10px;
+}
+
+/*CSS per WHO we are*/
+
+/*CSS per GO FUND*/
+.gofund {
+  background: rgb(206, 229, 143);
+  background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 10px;
+}
+
+.donate {
+  margin: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(206, 229, 143);
+  background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+
+}
+.donate2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(206, 229, 143);
+  background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+  width: 200px;
+  height: 50px;
+  margin: 100px;
+  border-radius: 20px;
+}
+/*Fund CSS per GO FUND*/
+
+/*CSS e Search*/
+  .search-bar  {
+    background: rgb(206, 229, 143);
+    background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    padding: 5px;
+  }
+  .search {
+    background: rgb(206, 229, 143);
+    background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+    border: none;
+    font-size: medium;
+  }
+
+  .search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+  /*FOOTER CSS*/
+
+  .footer {
+    background: rgb(206, 229, 143);
+    background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*CSS per SEARCH-RESULTS-LIST*/
+  .search-list {
+    width:20%;
+    background: rgb(206, 229, 143);
+    background: linear-gradient(104deg, rgb(223, 241, 143)10%, rgb(146, 247, 238)60%);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px rgb(206, 229, 143);
+    border-radius: 10px;
+    /* margin-top: 1rem; */
+    max-height: 300px;
+    /* overflow: scroll; */
+    position: absolute;
+  }
+
+  /* per SEARCH-RESULT*/
+  .search-rsult {
+    padding: 10px 20px;
+
+
+  }
+  .search-result:hover {
+    background-color: gold;
+  }

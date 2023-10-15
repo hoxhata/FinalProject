@@ -1,0 +1,60 @@
+duhet integruar NavBar.jsx te Header.jsx
+
+te GoFund.jsx eshte perdorur pagination, 
+
+// <button className="donate2" onClick={navigateToDonate}><h3 >Donate</h3></button> 
+
+ku eshte importuar   //import { useNavigate } from "react-router-dom"
+dhe eshte perdorur funksioni 
+
+//const navigate = useNavigate();
+
+  const navigateToDonate = () => {
+
+    navigate ('/donate');
+  };
+
+
+  ---------
+  ---------
+  ---------
+
+  import { useState, useEffect } from 'react';
+
+function Search() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const [items, setItems] = useState([]); // Initialize items as an empty array
+
+  useEffect(() => {
+    // Make an API request to fetch items for the landing page
+    fetch('your_api_url_here')
+      .then((response) => response.json())
+      .then((data) => {
+        // Set the fetched data to the items state
+        setItems(data);
+      })
+      .catch((error) => {
+        console.error('Error fetching items:', error);
+      });
+  }, []);
+
+  // Function to handle the search input change
+  const handleInputChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  // Function to handle the search
+  const handleSearch = () => {
+    const filteredResults = items.filter((item) =>
+      item.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setSearchResults(filteredResults);
+  };
+
+  return (
+    
+  );
+}
+
+export default Search;
